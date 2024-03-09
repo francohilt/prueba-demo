@@ -1,0 +1,8 @@
+import example.Bird
+
+describe "a group of tests for bird" {
+  test "initial energy for a bird" {
+    const pepita = new Bird()
+    assert.equals(100, pepita.energy())
+  }
+}
